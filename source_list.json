@@ -1,0 +1,252 @@
+{
+  "schema_version": "2.1",
+  "usage_rule": "Use only these approved sources or URLs. If the URL is not an RSS feed, use site-restricted search and cite the final source correctly.",
+  "regions": {
+    "Global": [
+      {
+        "name": "AP News",
+        "urls": [
+          "https://apnews.com/world-news"		  
+        ]
+      },
+	  {
+		"name": "觀察者網",
+		"urls": [
+			"https://www.guancha.cn/"
+		]
+	  },
+	  {
+		  "name": "人民日報",
+		  "urls": [
+			"http://paper.people.com.cn/"
+		  ]
+	  },
+      {
+        "name": "Reuters",
+        "urls": [
+          "https://www.reuters.com/world",
+          "https://www.reuters.com/business",
+          "https://www.reuters.com/markets",
+          "https://www.reuters.com/technology"
+        ]
+      }
+    ],
+    "USA": [
+      {
+        "name": "New York Times",
+        "urls": [
+          "https://www.nytimes.com/services/xml/rss/nyt/HomePage.xml"
+        ]
+      },
+      {
+        "name": "Wall Street Journal",
+        "urls": [
+          "https://feeds.content.dowjones.io/public/rss/RSSWorldNews",
+          "https://feeds.content.dowjones.io/public/rss/RSSUSnews",
+          "https://feeds.content.dowjones.io/public/rss/WSJcomUSBusiness"
+        ]
+      },
+      {
+        "name": "CBS News",
+        "urls": [
+          "https://www.cbsnews.com/latest/rss/main",
+          "https://www.cbsnews.com/latest/rss/politics"
+        ]
+      },
+      {
+        "name": "ABC News",
+        "urls": [
+          "https://feeds.abcnews.com/abcnews/topstories",
+          "https://feeds.abcnews.com/abcnews/politicsheadlines"
+        ]
+      },
+      {
+        "name": "NPR",
+        "urls": [
+          "https://www.npr.org/rss/rss.php?id=1002",
+          "https://www.npr.org/sections/news/"
+        ]
+      },
+      {
+        "name": "USA Today",
+        "urls": [
+          "https://www.usatoday.com/news/nation/",
+          "https://www.usatoday.com/news/politics/"
+        ]
+      }
+    ],
+    "Europe": {
+      "UK": [
+        {
+          "name": "BBC",
+          "urls": [
+            "http://feeds.bbci.co.uk/news/rss.xml",
+            "https://feeds.bbci.co.uk/news/world/europe/rss.xml"
+          ]
+        },
+        {
+          "name": "Sky News",
+          "urls": [
+            "https://feeds.skynews.com/feeds/rss/world.xml",
+            "http://feeds.skynews.com/feeds/rss/politics.xml"
+          ]
+        },
+        {
+          "name": "Guardian",
+          "urls": [
+            "https://www.theguardian.com/world/rss",
+            "https://feeds.guardian.co.uk/theguardian/technology/rss"
+          ]
+        },
+        {
+          "name": "Telegraph",
+          "urls": [
+            "https://www.telegraph.co.uk/news/rss",
+            "https://www.telegraph.co.uk/business/rss"
+          ]
+        },
+        {
+          "name": "Reuters",
+          "urls": [
+            "https://www.reuters.com/world/europe",
+            "https://www.reuters.com/world/ukraine-russia-war"
+          ]
+        }
+      ],
+      "France": [
+        {
+          "name": "Le Monde",
+          "urls": [
+            "https://www.lemonde.fr/rss/une.xml",
+            "https://www.lemonde.fr/economie/rss_full.xml"
+          ]
+        },
+        {
+          "name": "Franceinfo",
+          "urls": [
+            "https://www.franceinfo.fr/monde.rss",
+            "https://www.franceinfo.fr/economie.rss"
+          ]
+        },
+        {
+          "name": "RFI",
+          "urls": [
+            "https://www.rfi.fr/en/international/",
+            "https://www.rfi.fr/en/france/"
+          ]
+        }
+      ],
+      "Germany": [
+        {
+          "name": "Tagesschau",
+          "urls": [
+            "https://www.tagesschau.de/xml/rss2"
+          ]
+        },
+        {
+          "name": "ZDFheute",
+          "urls": [
+            "https://www.zdfheute.de/rss/zdf/nachrichten"
+          ]
+        },
+        {
+          "name": "FAZ",
+          "urls": [
+            "https://www.faz.net/rss/aktuell/politik",
+            "https://www.faz.net/rss/aktuell/wirtschaft/"
+          ]
+        },
+        {
+          "name": "Der Spiegel",
+          "urls": [
+            "https://www.spiegel.de/schlagzeilen/index.rss"
+          ]
+        }
+      ],
+      "Other_Europe": [
+        {
+          "name": "ANSA",
+          "urls": [
+            "https://www.ansa.it/sito/notizie/mondo/mondo_rss.xml",
+            "https://www.ansa.it/sito/notizie/economia/economia_rss.xml"
+          ]
+        },
+        {
+          "name": "Antena 3",
+          "urls": [
+            "https://www.antena3.com/noticias/rss/4013050.xml"
+          ]
+        },
+        {
+          "name": "NRK",
+          "urls": [
+            "https://www.nrk.no/nyheiter/siste.rss"
+          ]
+        },
+        {
+          "name": "SVT",
+          "urls": [
+            "https://www.svt.se/nyheter/rss.xml"
+          ]
+        },
+        {
+          "name": "Yle",
+          "urls": [
+            "https://yle.fi/rss/uutiset/paauutiset",
+            "https://yle.fi/rss/t/18-150067/en"
+          ]
+        },
+        {
+          "name": "POLITICO Europe",
+          "urls": [
+            "https://www.politico.eu"
+          ]
+        }
+      ]
+    },
+    "Japan": [
+      {
+        "name": "NHK",
+        "urls": [
+          "https://www3.nhk.or.jp/rss/news/cat0.xml",
+          "https://www3.nhk.or.jp/nhkworld/en/news/"
+        ]
+      },
+      {
+        "name": "Nikkei",
+        "urls": [
+          "https://zh.cn.nikkei.com"
+        ]
+      },
+      {
+        "name": "Kyodo News",
+        "urls": [
+          "https://english.kyodonews.net/list/news/japan",
+          "https://tchina.kyodonews.net"
+        ]
+      },
+      {
+        "name": "Yomiuri Shimbun",
+        "urls": [
+          "https://japannews.yomiuri.co.jp/politics/",
+          "https://japannews.yomiuri.co.jp/business/"
+        ]
+      },
+      {
+        "name": "Asahi Shimbun",
+        "urls": [
+          "https://www.asahi.com/ajw/politics/",
+          "https://www.asahi.com/ajw/business/"
+        ]
+      }
+    ],
+    "Middle_East": [
+      {
+        "name": "Al Jazeera",
+        "urls": [
+          "https://www.aljazeera.com/Services/Rss/?PostingId=2007731105943979989"
+        ]
+      }
+    ]
+  }
+}
