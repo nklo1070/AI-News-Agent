@@ -1,0 +1,150 @@
+{
+  "schema_version": "1.1",
+  "regions": {
+    "North_America": [
+      {
+        "name": "United States",
+        "priority": "critical",
+        "why_follow": "Largest economy and reserve-currency issuer.",
+        "key_drivers": ["Fed", "elections", "tariffs", "AI policy"],
+        "risk_tags": ["rates", "election", "tariffs", "export controls"]
+      },
+      {
+        "name": "Mexico",
+        "priority": "high",
+        "why_follow": "Major manufacturing and nearshoring hub.",
+        "key_drivers": ["US demand", "autos", "trade policy"],
+        "risk_tags": ["nearshoring", "trade", "security"]
+      }
+    ],
+    "Europe": [
+      {
+        "name": "Eurozone",
+        "priority": "critical",
+        "why_follow": "Systemically important monetary bloc.",
+        "key_drivers": ["ECB", "inflation", "energy prices"],
+        "risk_tags": ["rates", "energy", "growth"]
+      },
+      {
+        "name": "United Kingdom",
+        "priority": "high",
+        "why_follow": "Major financial centre and policy signaler.",
+        "key_drivers": ["Bank of England", "politics", "regulation"],
+        "risk_tags": ["rates", "politics", "regulation", "inflation", "Population policy"]
+      },
+      {
+        "name": "Germany",
+        "priority": "high",
+        "why_follow": "Europe's industrial engine.",
+        "key_drivers": ["industrial production", "autos", "energy costs"],
+        "risk_tags": ["manufacturing", "energy", "exports"]
+      },
+      {
+        "name": "France",
+        "priority": "high",
+        "why_follow": "Key EU political actor.",
+        "key_drivers": ["domestic politics", "budget", "EU policy"],
+        "risk_tags": ["politics", "fiscal policy"]
+      },
+      {
+        "name": "Ukraine",
+        "priority": "critical",
+        "why_follow": "Central to European security and sanctions policy.",
+        "key_drivers": ["battlefield developments", "aid", "grain exports"],
+        "risk_tags": ["war", "grain", "aid", "sanctions"]
+      },
+      {
+        "name": "Russia",
+        "priority": "high",
+        "why_follow": "Major energy and security actor.",
+        "key_drivers": ["oil exports", "sanctions", "military operations"],
+        "risk_tags": ["sanctions", "oil", "war"]
+      }
+    ],
+    "Asia_Pacific": [
+      {
+        "name": "China",
+        "priority": "critical",
+        "why_follow": "Major economy and rate-policy outlier.",
+        "key_drivers": ["Government Policy", "Renminbi", "exports", "AI", "Green Energy"],
+        "risk_tags": ["yen", "rates", "exports", "security"]
+      },
+      {
+        "name": "Japan",
+        "priority": "critical",
+        "why_follow": "Major economy and rate-policy outlier.",
+        "key_drivers": ["Bank of Japan", "yen", "exports", "defence policy"],
+        "risk_tags": ["yen", "rates", "exports", "security", "Population"]
+      },
+      {
+        "name": "India",
+        "priority": "high",
+        "why_follow": "Fast-growing economy with rising geopolitical weight.",
+        "key_drivers": ["growth", "industrial incentives", "energy imports"],
+        "risk_tags": ["growth", "energy", "industrial policy"]
+      },
+      {
+        "name": "Australia",
+        "priority": "medium",
+        "why_follow": "Commodity exporter and Asia-Pacific policy barometer.",
+        "key_drivers": ["RBA", "iron ore", "LNG"],
+        "risk_tags": ["commodities", "rates", "trade"]
+      }
+    ],
+    "Middle_East": [
+      {
+        "name": "Saudi Arabia",
+        "priority": "critical",
+        "why_follow": "Key OPEC producer and regional investor.",
+        "key_drivers": ["oil output", "OPEC+ policy", "regional diplomacy"],
+        "risk_tags": ["oil", "OPEC", "regional politics"]
+      },
+      {
+        "name": "Israel",
+        "priority": "critical",
+        "why_follow": "Security developments can quickly affect regional escalation.",
+        "key_drivers": ["military operations", "ceasefire talks", "US policy"],
+        "risk_tags": ["war", "ceasefire", "regional escalation"]
+      },
+      {
+        "name": "Iran",
+        "priority": "critical",
+        "why_follow": "Important for sanction risk, oil flows, and maritime security.",
+        "key_drivers": ["sanctions", "proxy activity", "oil exports"],
+        "risk_tags": ["sanctions", "oil", "shipping", "security"]
+      },
+	  {
+        "name": "Egypt",
+        "priority": "medium",
+        "why_follow": "Strategic state for Red Sea traffic.",
+        "key_drivers": ["Suez traffic", "currency", "external financing"],
+        "risk_tags": ["shipping", "currency", "external financing"]
+      }
+    ],
+    "Latin_America": [
+      {
+        "name": "Brazil",
+        "priority": "high",
+        "why_follow": "Largest Latin American economy.",
+        "key_drivers": ["rates", "fiscal policy", "commodities"],
+        "risk_tags": ["commodities", "fiscal policy", "currency"]
+      },
+      {
+        "name": "Argentina",
+        "priority": "medium",
+        "why_follow": "Important signal for inflation and sovereign risk.",
+        "key_drivers": ["inflation", "IMF", "currency policy"],
+        "risk_tags": ["inflation", "currency", "sovereign risk"]
+      }
+    ],
+    "Africa": [
+      {
+        "name": "South Africa",
+        "priority": "medium",
+        "why_follow": "Regional financial and mining hub.",
+        "key_drivers": ["power grid", "mining output", "currency"],
+        "risk_tags": ["power", "commodities", "currency"]
+      }
+    ]
+  }
+}

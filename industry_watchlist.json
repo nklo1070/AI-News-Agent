@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "impact_scale": [
+    "Very High",
+    "High",
+    "Medium",
+    "Low",
+    "Watchlist Only"
+  ],
+  "industries": [
+    {
+      "name": "Semiconductors",
+      "priority": "critical",
+      "triggers": ["chip export controls", "AI GPU demand", "foundry constraints"],
+      "key_companies": ["NVIDIA", "AMD", "Intel", "TSMC", "Samsung Electronics", "ASML", "SNDK", "MU", "AVGO", "QCOM"],
+      "macro_links": ["technology_and_industrial_policy", "trade_tariffs_and_export_controls", "supply_chain_and_logistics"]
+    },
+    {
+      "name": "Cloud and AI Infrastructure",
+      "priority": "critical",
+      "triggers": ["AI regulation", "data centre capex", "sovereign AI policy"],
+      "key_companies": ["Microsoft", "Amazon", "Alphabet", "Meta", "Oracle", "OpenAI", "Anthropic", "Apple"],
+      "macro_links": ["technology_and_industrial_policy", "energy_and_commodities"]
+    },
+    {
+      "name": "Banking and Financials",
+      "priority": "critical",
+      "triggers": ["rate shifts", "credit stress", "sovereign risk"],
+      "key_companies": ["JPMorgan", "Goldman Sachs", "HSBC", "BlackRock"],
+      "macro_links": ["central_banks_and_rates", "financial_stability_and_credit", "fiscal_policy_and_public_finance"]
+    },
+    {
+      "name": "Energy and Oil & Gas",
+      "priority": "critical",
+      "triggers": ["OPEC decisions", "war risk", "sanctions", "LNG disruptions", "Hydrogen", "Hydrogen Fuel"],
+      "key_companies": ["Saudi Aramco", "ExxonMobil", "Chevron", "Shell", "BP"],
+      "macro_links": ["energy_and_commodities", "geopolitics_and_security"]
+    },
+    {
+      "name": "Autos and EVs",
+      "priority": "high",
+      "triggers": ["tariffs", "battery policy", "consumer weakness", "supply disruptions"],
+      "key_companies": ["Tesla", "BYD", "Toyota", "Volkswagen"],
+      "macro_links": ["trade_tariffs_and_export_controls", "growth_and_labour", "supply_chain_and_logistics"]
+    },
+    {
+      "name": "Aerospace and Defence",
+      "priority": "high",
+      "triggers": ["wars", "defence procurement", "alliances"],
+      "key_companies": ["Lockheed Martin", "RTX", "BAE Systems", "Airbus", "Boeing"],
+      "macro_links": ["geopolitics_and_security", "fiscal_policy_and_public_finance"]
+    },
+    {
+      "name": "Shipping and Logistics",
+      "priority": "high",
+      "triggers": ["port congestion", "Red Sea disruption", "container-rate spikes"],
+      "key_companies": ["Maersk", "FedEx", "UPS"],
+      "macro_links": ["supply_chain_and_logistics", "energy_and_commodities", "geopolitics_and_security"]
+    }
+  ]
+}

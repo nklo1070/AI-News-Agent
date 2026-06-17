@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "exposure_types": [
+    "direct",
+    "indirect",
+    "beneficiary",
+    "at-risk"
+  ],
+  "impact_scale": [
+    "Very High",
+    "High",
+    "Medium",
+    "Low",
+    "Watchlist Only"
+  ],
+  "groups": {
+    "AI_and_Cloud": [
+      {"name": "NVIDIA", "industry": "Semiconductors", "country": "United States", "watch_for": ["AI GPU demand", "export controls", "data centre spending"]},
+      {"name": "AMD", "industry": "Semiconductors", "country": "United States", "watch_for": ["AI accelerators", "PC cycle", "export controls"]},
+      {"name": "Microsoft", "industry": "Cloud and AI Infrastructure", "country": "United States", "watch_for": ["AI capex", "cloud demand", "regulation"]},
+      {"name": "Alphabet", "industry": "Cloud and AI Infrastructure", "country": "United States", "watch_for": ["AI competition", "search regulation", "cloud spending"]},
+      {"name": "Amazon", "industry": "Cloud and AI Infrastructure", "country": "United States", "watch_for": ["AWS capex", "consumer demand", "logistics"]},
+      {"name": "Meta", "industry": "Cloud and AI Infrastructure", "country": "United States", "watch_for": ["AI spending", "digital ads", "content regulation"]},
+      {"name": "OpenAI", "industry": "Cloud and AI Infrastructure", "country": "United States", "watch_for": ["AI regulation", "model deployment", "partnerships"]},
+      {"name": "Anthropic", "industry": "Cloud and AI Infrastructure", "country": "United States", "watch_for": ["AI safety rules", "enterprise adoption"]},
+      {"name": "Apple", "industry": "Cloud and AI Infrastructure", "country": "United States", "watch_for": ["Local AI", "security"]}		  
+    ],
+    "Semiconductors_and_Equipment": [
+      {"name": "TSMC", "industry": "Semiconductors", "country": "Taiwan", "watch_for": ["foundry demand", "AI chip production", "geopolitical risk"]},
+      {"name": "Samsung Electronics", "industry": "Semiconductors", "country": "South Korea", "watch_for": ["memory cycle", "foundry competition", "consumer electronics"]},
+      {"name": "Intel", "industry": "Semiconductors", "country": "United States", "watch_for": ["industrial policy", "subsidies", "fab expansion"]},
+      {"name": "ASML", "industry": "Semiconductors", "country": "Netherlands", "watch_for": ["lithography exports", "equipment demand", "China restrictions"]},
+	  {"name": "SNDK", "industry": "Semiconductors", "country": "United States", "watch_for": ["industrial policy", "subsidies", "fab expansion"]},
+      {"name": "MU", "industry": "Semiconductors", "country": "United States", "watch_for": ["industrial policy", "subsidies", "fab expansion"]},
+      {"name": "SK Hynix", "industry": "Semiconductors", "country": "South Korea", "watch_for": ["memory cycle", "foundry competition", "consumer electronics"]},},	  
+    ],
+    "Finance": [
+      {"name": "JPMorgan", "industry": "Banking and Financials", "country": "United States", "watch_for": ["rates", "credit conditions", "investment banking"]},
+      {"name": "Goldman Sachs", "industry": "Banking and Financials", "country": "United States", "watch_for": ["capital markets", "M&A", "trading conditions"]},
+      {"name": "HSBC", "industry": "Banking and Financials", "country": "United Kingdom", "watch_for": ["rates", "Asia exposure", "cross-border capital flows"]},
+      {"name": "BlackRock", "industry": "Banking and Financials", "country": "United States", "watch_for": ["market sentiment", "ETF flows", "credit markets"]}
+    ],
+    "Energy": [
+      {"name": "Saudi Aramco", "industry": "Energy and Oil & Gas", "country": "Saudi Arabia", "watch_for": ["OPEC+ policy", "oil prices", "regional security"]},
+      {"name": "ExxonMobil", "industry": "Energy and Oil & Gas", "country": "United States", "watch_for": ["oil prices", "project approvals", "geopolitical risk"]},
+      {"name": "Chevron", "industry": "Energy and Oil & Gas", "country": "United States", "watch_for": ["oil and gas prices", "project risk", "sanctions"]},
+      {"name": "Shell", "industry": "Energy and Oil & Gas", "country": "United Kingdom", "watch_for": ["LNG", "shipping routes", "European demand"]}
+    ],
+    "Autos_and_EV": [
+      {"name": "Tesla", "industry": "Autos and EVs", "country": "United States", "watch_for": ["EV demand", "tariffs", "battery policy"]},
+      {"name": "BYD", "industry": "Autos and EVs", "country": "China", "watch_for": ["EV exports", "battery supply", "tariffs"]},
+      {"name": "Toyota", "industry": "Autos and EVs", "country": "Japan", "watch_for": ["yen", "supply chain", "global auto demand"]},
+      {"name": "Volkswagen", "industry": "Autos and EVs", "country": "Germany", "watch_for": ["European demand", "China exposure", "EV transition"]}
+    },
+    "Logistics_and_Defence": [
+      {"name": "Maersk", "industry": "Shipping and Logistics", "country": "Denmark", "watch_for": ["shipping routes", "Red Sea disruptions", "freight rates"]},
+      {"name": "FedEx", "industry": "Shipping and Logistics", "country": "United States", "watch_for": ["air cargo demand", "global trade", "fuel prices"]},
+      {"name": "Lockheed Martin", "industry": "Aerospace and Defence", "country": "United States", "watch_for": ["defence budgets", "missile demand", "alliance procurement"]},
+      {"name": "Airbus", "industry": "Aerospace and Defence", "country": "France", "watch_for": ["aviation demand", "supply chain", "defence orders"]}
+    ]
+  }
+}

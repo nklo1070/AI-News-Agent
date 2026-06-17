@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.1",
+  "impact_scale": [
+    "Very High",
+    "High",
+    "Medium",
+    "Low",
+    "Watchlist Only"
+  ],
+  "themes": [
+    {
+      "id": "central_banks_and_rates",
+      "label": "Central banks and interest rates",
+      "priority": "critical",
+      "keywords": ["interest rates", "rate cut", "rate hike", "FOMC", "ECB", "BOJ"],
+      "affected_sectors": ["banks", "real estate", "technology"],
+      "why_it_matters": "Rates and liquidity drive borrowing costs, valuations, and currencies."
+    },
+    {
+      "id": "inflation_and_prices",
+      "label": "Inflation, wages, and cost pressures",
+      "priority": "critical",
+      "keywords": ["inflation", "consumer prices", "wages", "cost of living"],
+      "affected_sectors": ["retail", "housing", "transport"],
+      "why_it_matters": "Inflation shapes real incomes, margins, and policy expectations."
+    },
+    {
+      "id": "growth_and_labour",
+      "label": "Growth, recession, and labour market",
+      "priority": "critical",
+      "keywords": ["GDP", "recession", "PMI", "jobs", "unemployment"],
+      "affected_sectors": ["industrials", "materials", "consumer discretionary"],
+      "why_it_matters": "Growth and labour data alter recession risk and earnings expectations."
+    },
+    {
+      "id": "energy_and_commodities",
+      "label": "Energy and commodities",
+      "priority": "critical",
+      "keywords": ["oil", "gas", "LNG", "OPEC", "copper", "wheat"],
+      "affected_sectors": ["energy", "airlines", "shipping", "utilities"],
+      "why_it_matters": "Commodity shocks feed into inflation, trade balances, and supply chains."
+    },
+    {
+      "id": "trade_tariffs_and_export_controls",
+      "label": "Trade policy, tariffs, sanctions, and export controls",
+      "priority": "critical",
+      "keywords": ["tariff", "sanctions", "export controls", "entity list"],
+      "affected_sectors": ["semiconductors", "autos", "defence", "shipping"],
+      "why_it_matters": "Trade restrictions reshape supply chains and market access."
+    },
+    {
+      "id": "technology_and_industrial_policy",
+      "label": "Technology, AI, chips, and industrial policy",
+      "priority": "critical",
+      "keywords": ["AI", "semiconductors", "GPU", "data centre", "subsidy", "antitrust"],
+      "affected_sectors": ["semiconductors", "software", "cloud", "telecom"],
+      "why_it_matters": "Tech policy shapes competitiveness, capex cycles, and strategic autonomy."
+    },
+    {
+      "id": "financial_stability_and_credit",
+      "label": "Financial stability, credit, and banking stress",
+      "priority": "high",
+      "keywords": ["credit", "downgrade", "default", "liquidity", "bailout"],
+      "affected_sectors": ["banks", "real estate", "construction"],
+      "why_it_matters": "Financial stress can spill quickly into the real economy."
+    },
+    {
+      "id": "fiscal_policy_and_public_finance",
+      "label": "Fiscal policy, budgets, and sovereign debt",
+      "priority": "high",
+      "keywords": ["budget", "deficit", "debt ceiling", "tax", "stimulus"],
+      "affected_sectors": ["infrastructure", "healthcare", "defence"],
+      "why_it_matters": "Budget choices affect demand, borrowing costs, and sector winners."
+    },
+    {
+      "id": "geopolitics_and_security",
+      "label": "Wars, security risks, and strategic chokepoints",
+      "priority": "critical",
+      "keywords": ["war", "strike", "ceasefire", "shipping lanes", "missiles"],
+      "affected_sectors": ["energy", "shipping", "defence", "insurance"],
+      "why_it_matters": "Security shocks can disrupt trade and raise commodity prices."
+    },
+    {
+      "id": "supply_chain_and_logistics",
+      "label": "Supply chains, shipping, and logistics",
+      "priority": "high",
+      "keywords": ["supply chain", "shipping", "port", "freight", "rerouting"],
+      "affected_sectors": ["retail", "autos", "electronics", "e-commerce"],
+      "why_it_matters": "Logistics disruption changes delivery times, inventory costs, and pricing."
+    }
+  ]
+}
